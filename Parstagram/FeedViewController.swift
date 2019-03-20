@@ -32,8 +32,9 @@ class FeedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         
         // Do any additional setup after loading the view.
     }
-    func keyboardWillBeHidden(note: Notification){
+    @objc func keyboardWillBeHidden(note: Notification){
         let center = NotificationCenter.default
+        center.addObserver(self, selector: #selector(keyboardWillBeHidden(note:)), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
     override var inputAccessoryView: UIView? {

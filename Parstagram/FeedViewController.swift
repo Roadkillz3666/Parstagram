@@ -122,18 +122,18 @@ class FeedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
             
             
         }
-//        comment["text"] = "This is a random comment"
-//        comment["post"] = post
-//        comment["author"] = PFUser.current()!
-//
-//        post.add(comment, forKey: "comments")
-//        post.saveInBackground { (success, error) in
-//            if success{
-//                print ("comment saved")
-//            }else{
-//                print ("comment save error")
-//            }
-//        }
+        //        comment["text"] = "This is a random comment"
+        //        comment["post"] = post
+        //        comment["author"] = PFUser.current()!
+        //
+        //        post.add(comment, forKey: "comments")
+        //        post.saveInBackground { (success, error) in
+        //            if success{
+        //                print ("comment saved")
+        //            }else{
+        //                print ("comment save error")
+        //            }
+        //        }
     }
     
     @IBAction func onLogoutButton(_ sender: Any) {

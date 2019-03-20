@@ -14,6 +14,7 @@
 		AC2A63DC2224C45100F2A047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2A63DA2224C45100F2A047 /* LaunchScreen.storyboard */; };
 		AC2A63E72224C45100F2A047 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A63E62224C45100F2A047 /* ParstagramTests.swift */; };
 		AC2A63F22224C45100F2A047 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A63F12224C45100F2A047 /* ParstagramUITests.swift */; };
+		ACA4E69D224197A900B20E97 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4E69C224197A900B20E97 /* CommentCell.swift */; };
 		ACE8BABB222F2A2C00C0B718 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8BABA222F2A2C00C0B718 /* LoginViewController.swift */; };
 		ACE8BABD222F2A6400C0B718 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8BABC222F2A6400C0B718 /* FeedViewController.swift */; };
 		ACE8BABF222F665E00C0B718 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8BABE222F665E00C0B718 /* CameraViewController.swift */; };
@@ -56,6 +57,7 @@
 		AC2A63ED2224C45100F2A047 /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2A63F12224C45100F2A047 /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		AC2A63F32224C45100F2A047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA4E69C224197A900B20E97 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		ACE8BABA222F2A2C00C0B718 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ACE8BABC222F2A6400C0B718 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		ACE8BABE222F665E00C0B718 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				ACE8BABC222F2A6400C0B718 /* FeedViewController.swift */,
 				ACE8BABE222F665E00C0B718 /* CameraViewController.swift */,
 				ACE8BAC0222F7E0B00C0B718 /* PostCell.swift */,
+				ACA4E69C224197A900B20E97 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -326,6 +330,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				ACE8BABD222F2A6400C0B718 /* FeedViewController.swift in Sources */,
 				AC2A63D22224C44F00F2A047 /* AppDelegate.swift in Sources */,
 				ACE8BAC1222F7E0B00C0B718 /* PostCell.swift in Sources */,
+				ACA4E69D224197A900B20E97 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
